@@ -1,6 +1,3 @@
-module.export.home = function (req, res) {
-	res.render("home", {
-		title: "Home",
-		user: req.user,
-	});
+module.exports.home = function (req, res) {
+	res.end("home");
 };
