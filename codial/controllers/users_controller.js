@@ -1,6 +1,6 @@
 module.exports.profile = function (req, res) {
-	res.end("profile");
+	return res.end("profile");
 };
 module.exports.index = function (req, res) {
-	res.end("index");
+	return res.end("index");
 };
